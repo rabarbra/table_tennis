@@ -24,7 +24,7 @@ const PlayerCard = (
 const CurrentMatch = () => {
     const data: Match = running_matches[0];
     return(
-        <Box>
+        <Box sx={{display: 'flex'}}>
             <PlayerCard
                 player={data.a_player}
                 goals={data.goals_a || 0}
