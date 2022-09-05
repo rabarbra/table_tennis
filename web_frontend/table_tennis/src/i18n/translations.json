@@ -1,0 +1,20 @@
+{
+    "en": {
+        "translation": {
+            "DARK_MODE": "Dark mode",
+            "LIGHT_MODE": "Light mode"
+        }
+    },
+    "ru": {
+        "translation": {
+            "DARK_MODE": "Тёмная тема",
+            "LIGHT_MODE": "Светлая тема"
+        }
+    },
+    "hy": {
+        "translation": {
+            "DARK_MODE": "",
+            "LIGHT_MODE": ""
+        }
+    }
+}

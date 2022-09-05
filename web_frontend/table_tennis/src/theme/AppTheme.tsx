@@ -14,6 +14,7 @@ export const ColorModeContext = React.createContext({ toggleColorMode: () => {} 
 export default function AppTheme(
     { children }: {children: React.ReactNode}
 ) {
+    Object.keys(locales).includes(navigator.language)
     const preferDark = useMediaQuery('(prefers-color-scheme: dark)');
     const [mode, setMode] = useLocalStorage<PaletteMode>('mode', preferDark? 'dark': 'light');
     const colorMode = React.useMemo(
