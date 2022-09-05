@@ -13,8 +13,8 @@
     },
     "hy": {
         "translation": {
-            "DARK_MODE": "",
-            "LIGHT_MODE": ""
+            "DARK_MODE": "մութ թեմա",
+            "LIGHT_MODE": "թեթև թեմա"
         }
     }
 }
