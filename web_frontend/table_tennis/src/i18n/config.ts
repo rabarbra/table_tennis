@@ -7,6 +7,7 @@ i18n
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
+        supportedLngs: ["en", "ru", "hy"],
         fallbackLng: 'en',
         resources: translations,
         interpolation: {
