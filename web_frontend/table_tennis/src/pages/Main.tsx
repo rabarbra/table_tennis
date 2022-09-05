@@ -2,6 +2,7 @@ import Typography       from "@mui/material/Typography";
 import Container        from "@mui/material/Container";
 import PairsQueue       from "components/PairsQueue";
 import TopBar           from "components/TopBar";
+import CurrentMatch     from "components/CurrentMatch";
 
 const Main = () => {
     return(
@@ -18,6 +19,7 @@ const Main = () => {
                     }}
                 >
                     <Typography>This is fine</Typography>
+                    <CurrentMatch/>
                     <PairsQueue/>
                 </Container>
             </Container>
