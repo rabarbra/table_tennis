@@ -4,12 +4,12 @@ import Match    from 'interfaces/Match';
 
 
 export const players: Player[] = [
-    {id: '0', name: 'Anna', matches: 0, victories: 0},
-    {id: '1', name: 'Mary', matches: 3, victories: 1},
-    {id: '2', name: 'John', matches: 5, victories: 2},
-    {id: '3', name: 'Lilit', matches: 34, victories: 25},
-    {id: '4', name: 'Tigran', matches: 0, victories: 0},
-    {id: '5', name: 'Mark', matches: 0, victories: 0},
+    {id: '0', name: 'Anna', avatar: 'Avatar7', matches: 0, victories: 0},
+    {id: '1', name: 'Mary', avatar: 'Avatar8', matches: 3, victories: 1},
+    {id: '2', name: 'John', avatar: 'Avatar1', matches: 5, victories: 2},
+    {id: '3', name: 'Lilit', avatar: 'Avatar9', matches: 34, victories: 25},
+    {id: '4', name: 'Tigran', avatar: 'Avatar2', matches: 0, victories: 0},
+    {id: '5', name: 'Mark', avatar: 'Avatar3', matches: 0, victories: 0},
 ];
 
 export const queue_players: Player[] = [
