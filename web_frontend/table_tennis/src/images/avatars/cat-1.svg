@@ -8,7 +8,7 @@
    version="1.1"
    id="svg10994"
    xmlns="http://www.w3.org/2000/svg"
-   xmlnsSvg="http://www.w3.org/2000/svg">
+   xmlnssvg="http://www.w3.org/2000/svg">
   <defs
      id="defs10991" />
   <g
@@ -51,7 +51,7 @@
          id="path188"
          style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1"
          d="m 884.734,103.845 c -2.057,-12.4989 11.651,-20.5649 22.405,-15.293 13.653,6.6929 14.112,23.263 11.75,36.253 -0.574,3.161 -5.394,1.822 -4.821,-1.329 1.652,-9.087 2.282,-19.683 -4.507,-26.9459 -2.912,-3.116 -7.206,-5.459 -11.599,-4.6871 -4.92,0.864 -9.252,5.534 -8.406,10.673 0.518,3.148 -4.299,4.501 -4.822,1.329 v 0"
-         inkscapeLabel="path917" />
+         />
       <path
          id="path190"
          style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1"

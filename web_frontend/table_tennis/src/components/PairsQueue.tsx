@@ -7,12 +7,10 @@ const PairsQueue = () => {
     return(
         <>
             {
-                data.map(pair=>(
-                    <>
-                        <Typography>
-                            {`${pair.a_player.name} vs ${pair.b_player.name}`}
-                        </Typography>
-                    </>
+                data.map((pair, idx)=>(
+                    <Typography key={idx}>
+                        {`${pair.a_player.name} vs ${pair.b_player.name}`}
+                    </Typography>
                 ))
             }
         </>

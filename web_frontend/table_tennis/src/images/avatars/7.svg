@@ -8,7 +8,7 @@
    version="1.1"
    id="svg8269"
    xmlns="http://www.w3.org/2000/svg"
-   xmlnsSvg="http://www.w3.org/2000/svg">
+   xmlnssvg="http://www.w3.org/2000/svg">
   <defs
      id="defs8266">
     <clipPath
@@ -53,8 +53,6 @@
     </clipPath>
   </defs>
   <g
-     inkscapeLabel="Layer 1"
-     inkscapeGroupmode="layer"
      id="layer1"
      transform="translate(149.47175,-78.328366)">
     <g
