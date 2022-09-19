@@ -9,7 +9,7 @@ import { TOPBAR_HEIGHT }    from "config/config";
 import { players }          from 'interfaces/test_data';
 
 const Profile = () => {
-    const player: Player = players[3];
+    const player: Player = players[2];
     return(
         <Box
             maxWidth='sm'
