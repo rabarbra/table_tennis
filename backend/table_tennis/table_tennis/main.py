@@ -16,10 +16,9 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 fake_users_db = {
     "johndoe": {
         "username": "johndoe",
-        "full_name": "John Doe",
+        "avatar": "John Doe",
         "email": "johndoe@example.com",
         "hashed_password": "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
-        "disabled": False,
     }
 }
 
@@ -35,10 +34,8 @@ class TokenData(BaseModel):
 
 class User(BaseModel):
     username: str
+    avatar: str
     email: str | None = None
-    full_name: str | None = None
-    disabled: bool | None = None
-
 
 class UserInDB(User):
     hashed_password: str
@@ -106,8 +103,6 @@ async def get_current_user(token: str = Depends(oauth2_scheme)):
 
 
 async def get_current_active_user(current_user: User = Depends(get_current_user)):
-    if current_user.disabled:
-        raise HTTPException(status_code=400, detail="Inactive user")
     return current_user
 
 
